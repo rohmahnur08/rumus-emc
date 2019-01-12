@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+
+{
+clrscr();
+float c = 89.88, m, E;
+
+printf("\t=PROGRAM PERHITUNGAN MENGGUNAKAN RUMUS E=mc2=\n");
+printf("\t=============================================\n\n");
+printf("Masukkan massa (kg) : ");
+scanf("%f",&m);
+E = m*c*c;
+printf("E = %.2f * %.2f * %.2f = %.2f J",m,c,c,E);
+getch();
+}
